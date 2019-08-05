@@ -1,5 +1,6 @@
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import { SvgIcon } from '@material-ui/core';
 
@@ -17,7 +18,7 @@ export default function Profile() {
             <Toolbar>
                 <Typography variant="h6" noWrap>
                     Material-UI
-          </Typography>
+                </Typography>
             </Toolbar>
             <IconButton aria-label="" color="inherit">
                 <HomeIcon></HomeIcon>

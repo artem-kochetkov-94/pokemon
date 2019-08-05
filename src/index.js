@@ -1,18 +1,15 @@
 import Home from "~/pages/home/index"
-// import Profile from "~/pages/profile/index"
-import { Router, Route, Switch } from "react-router"
-
-function Lala() {
-    return <h1>123</h1>
-}
+import Profile from "~/pages/profile/index"
+import { BrowserRouter as Router, Route, } from "react-router-dom";
 
 function App() {
     return (
         <Router>
-            <Switch>
+            <div>
+                <div>123</div>
                 <Route path="/" exact component={Home} />
-                <Route path="/profile" component={Lala} />
-            </Switch>
+                <Route path="/profile" component={Profile} />
+            </div>
         </Router>
     )
 }
